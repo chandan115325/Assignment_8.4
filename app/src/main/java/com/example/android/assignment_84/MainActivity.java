@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        // Defining ArrayList of AndroidVersion objects
         ArrayList<AndroidVersion>androidVersionDetail = new ArrayList<>();
         androidVersionDetail.add(new AndroidVersion("Donut", "1.6", R.drawable.donut));
         androidVersionDetail.add(new AndroidVersion("Eclair", "2.0-2.1", R.drawable.eclair));
